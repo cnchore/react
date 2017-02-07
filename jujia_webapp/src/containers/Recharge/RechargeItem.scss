@@ -1,0 +1,19 @@
+.priceBox {
+    color: #cc3333;
+    border-radius: 0.2rem;
+    border: 1px solid #cc3333;
+    padding: 1rem 0px;
+    margin: 0.5rem;
+    flex: 33;
+    .recharge{
+        font-size: 1.4rem;
+    }
+    .giveMoney {
+        font-size: 1rem;
+        padding-top: 0.5rem;
+    }
+}
+.active{
+    background: #cc3333;
+    color:#FFFFFF !important;
+}

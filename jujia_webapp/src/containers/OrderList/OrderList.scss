@@ -1,0 +1,25 @@
+@import "../../styles/variable";
+@import "../../styles/rem";
+.orderList{
+	.itemPanel{
+		padding-bottom: 5.3rem;
+
+        .noOrderWrap {
+            text-align: center;
+            padding-top: 30%;
+        }
+        .orderIcon {
+            color: #b5b7bd;
+            font-size: 10rem;
+        }
+        .buyOrderWrap{
+            padding-top: 1.5rem;
+            .noOrder {
+                color: #b5b7bd;
+            }
+            .goOrder{
+                color: #187be0;
+            }
+        }
+	}
+}

@@ -1,0 +1,291 @@
+@import "../../styles/variable";
+
+.item {
+    padding: 1.2rem 1.2rem 48px;
+    background-color: #F3F4F2;
+}
+
+.priceConetnt {
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+    .price {
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: $mainColor;
+    }
+    .proprice {
+        color: $minorColor;
+        font-size: 1rem;
+        text-decoration: line-through;
+    }
+    ._extendPrice {
+        color: $minorColor;
+        font-size: 0.8rem;
+    }
+    .extendPrice {
+        font-weight: 700;
+        color: $mainColor;
+        font-size: 1.4rem;
+    }
+    .priceSign {
+        font-size: 0.8rem !important;
+    }
+}
+
+.paper {
+    //display:flex;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.thumbnail {
+    float: left;
+    width: 30%;
+}
+
+.content {
+    float: right;
+    position: relative;
+    padding: 1.2rem;
+    width: 70%;
+    //flex:70;
+    h3 {
+        margin: 0;
+    }
+}
+
+.key {
+    font-size: large !important;
+    color: $mainColor;
+}
+
+.taketime {
+    color: $grey;
+    font-size: 1.1rem;
+}
+
+.desc {
+    color: #666;
+    max-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.1rem;
+}
+
+@media only screen and(min-width: 320px) and (max-width: 374px) {
+    .desc {
+        max-width: 10rem;
+    }
+}
+
+@media only screen and(min-width: 375px) {
+    .desc {
+        max-width: 14rem;
+    }
+}
+
+.pronameWrap {
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+
+.proname {
+    font-size: 1.3rem;
+}
+
+.detail {
+    display: inline-block;
+    margin-left: .5rem;
+    background: #c33;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: .2rem;
+    padding: 0 4px;
+}
+
+.storekey {
+
+}
+
+.hasCoupon {
+    position: absolute;
+    color: $mainColor;
+    right: 1.2rem;
+    top: 4.8rem;
+    border-radius: 0.2rem;
+    border: 1px solid;
+    padding: 0 2px;
+    font-size: smaller;
+}
+
+.closeBtn {
+    z-index: 999;
+    position: absolute;
+    color: $majorColor;
+    font-size: 3rem;
+    top: 0;
+    right: 0;
+    margin-top: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.iconBag {
+    border-radius: 999px;
+    background: $white;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-right: -1.1rem;
+    margin-top: -1.1rem;
+}
+
+.detailContent {
+    ::-webkit-scrollbar {
+        width: 2px;
+        display: none;
+    }
+    overflow: auto;
+    max-height: 30rem;
+    -webkit-overflow-scrolling: touch;
+    font-size: 1.2rem;
+    .proname {
+        font-size: 2rem;
+        padding-bottom: 15px;
+        color: #333 !important;
+    }
+    .iconTip {
+        font-size: 1.5rem !important;
+        color: $majorColor;
+    }
+
+    .tipTitle {
+        color: #333 !important;
+        font-size: 1.3rem !important;
+    }
+
+    .describe {
+        text-indent: 2rem;
+        font-size: 1.2rem !important;
+    }
+    .server_desc_content {
+        display: inline-block;
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        .servericon {
+            color: $majorColor;
+            font-size: 1.3rem !important;
+        }
+        .server_desc {
+            font-size: 1.2rem !important;
+        }
+    }
+}
+
+.titleName {
+    font-size: 18px;
+}
+
+.home {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    bottom: 3rem;
+    width: 90%;
+    margin-left: 5%;
+    height: 45px;
+}
+
+.order {
+    height: 45px;
+    width: 90%;
+    margin-left: 5%;
+    background: $majorColor;
+    align-items: center;
+    line-height: 3.5rem;
+    text-align: center;
+    color: $reMajorColor;
+    letter-spacing: 1rem;
+
+}
+
+.defaultShow {
+    display: block;
+    transform: translate(0%, 0%);
+}
+
+.defaultHide {
+    transform: translate(0%, 0%);
+}
+
+.upShow {
+    transition: all 1s ease-in-out;
+    transform: translate(0%, -100%);
+}
+
+.upHide {
+    transition: all 1s ease-in-out;
+    transform: translate(0%, -100%);
+}
+
+.downShow {
+    transition: all 1s ease-in-out;
+    transform: translate(0%, 0%);
+}
+
+.downHide {
+    transition: all 1s ease-in-out;
+    transform: translate(0%, 0%);
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.menubarContainer {
+    background-color: #fff !important;
+    color: $majorColor;
+}
+
+.tabs {
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+}
+
+.tabs_content {
+    padding-top: 50px;
+}
+
+.spread {
+    margin-top: -1.2rem;
+    color: #FFF;
+    margin-bottom: 1.2rem;
+    background: #f29419;
+    overflow: hidden;
+    line-height: 2.5rem;
+    .fire {
+        float: left;
+        font-size: 18px;
+    }
+    .content {
+        float: left;
+        padding: 0 0 0 10px;
+        font-size: 1.3rem;
+    }
+    .buy {
+        float: right;
+        font-size: 1.3rem;
+    }
+    .arrow{
+        font-size: 1.3rem;
+    }
+}

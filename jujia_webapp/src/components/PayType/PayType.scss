@@ -1,0 +1,60 @@
+.PayType {
+    .orderField {
+        padding: 2px 5px;
+        border-bottom: 1px solid #E0E0E0;
+        line-height: 3.5rem;
+        height: 3.5rem;
+    }
+    .payWayHidden {
+        transform: translateY(100%);
+        -webkit-transition: all 0.3s;
+        -webkit-transition-timing-function: ease;
+        .hidden{
+            display: none;
+        }
+    }
+    .payWayVisible {
+        z-index: 999;
+        position: fixed;
+        background: rgba(51, 51, 51, 0.56);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: translateY(0);
+        -webkit-transition: all 0.3s;
+        -webkit-transition-timing-function: ease;
+        .visible{
+            display: block;
+            height: 15rem;
+            left: 0;
+            position: absolute;
+            bottom: 0;
+            background: #fff;
+            right: 0;
+            .choosePayWrapper {
+                display: flex;
+                padding-top: 0.5rem;
+                .splitLine {
+                    flex: 50;
+                    height: 8px;
+                    border-bottom: 1px solid #999;
+                }
+                .choosePay {
+                    padding: 0 10px;
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+            .wxPay, .balancePay {
+                border-radius: 0.2rem;
+                height: 3.5rem;
+                border: 1px solid #999;
+                width: 80%;
+                margin: 2rem auto;
+                text-align: center;
+                line-height: 3.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+@import "../../../node_modules/react-image-gallery/src/image-gallery";
+
+.container {
+    .bannerWrap {
+
+    }
+    .serviceWrap {
+        .serviceContent {
+            position: relative;
+            background: #fff;
+            //display: flex;
+            padding-bottom: 10px;
+            .clonePicContent {
+                position: absolute;
+                //display: inline-block;
+                width: 33%;
+                text-align: center;
+                padding-bottom: 10px;
+                top:0;
+                left: 0;
+                z-index: 99;
+                background: #fff;
+                .scPic {
+                    margin: 10px auto 6px;
+                    border-radius: 100%;
+                    height: 5.5rem;
+                    width: 5.5rem;
+                }
+                .itemName {
+                    font-size: 1.3rem;
+                    color: #313133
+                }
+                .arrowWrap {
+                    position: absolute;
+                    margin: 0 60%;
+                    .arrowTips {
+                        width: 20rem;
+                    }
+                }
+
+            }
+            .picContent {
+                display: inline-block;
+                width: 33%;
+                text-align: center;
+                .scPic {
+                    margin: 10px auto 6px;
+                    border-radius: 100%;
+                    height: 5.5rem;
+                    width: 5.5rem;
+                }
+                .itemName {
+                    font-size: 1.3rem;
+                    color: #313133
+                }
+            }
+        }
+    }
+    .wpServiceWrap {
+        .wpServiceContainer {
+            background: #fff;
+            .wpLine {
+                border-bottom: 1px solid #eaeaea;
+            }
+            .wpServiceContent {
+                //display: flex;
+                .itemLine {
+                    border-left: 1px solid #eaeaea;
+                    border-right: 1px solid #eaeaea;
+                }
+                .itemContent {
+                    padding: 5px 0 15px;
+                    display: inline-block;
+                    width: 33%;
+                    text-align: center;
+                    .wpPic {
+                        margin: 10px auto;
+                        height: 2.5rem;
+                        width: 2.5rem;
+                    }
+                    .itemName {
+                        font-size: 1.2rem;
+                        color: #313133;
+                    }
+                }
+            }
+        }
+        .lastDay {
+            background: #fff;
+            text-align: center;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            color: #808080;
+            .days {
+                padding: 0 5px;
+                color: #cc3333 !important;
+            }
+        }
+        .bottomBag {
+            z-index: -1;
+            bottom: 48px;
+            position: fixed;
+            width: 100%;
+        }
+    }
+    .slider{
+        margin-top: 10px;
+        overflow: hidden;
+        .spread{
+            background: #fff;
+            text-align: center;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            color: #ce2729;
+        }
+    }
+    .titleContent {
+        line-height: 2.7rem;
+        height: 2.5rem;
+        .litleIcon {
+            background: #cc3333;
+            margin-top: 0.6rem;
+            margin-right: 0.5rem;
+            height: 1.4rem;
+            float: left;
+            width: 4px;
+        }
+        .title {
+            color: #a4a5a5;
+            font-size: 1.2rem;
+        }
+    }
+}

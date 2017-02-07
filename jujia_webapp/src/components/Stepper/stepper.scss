@@ -1,0 +1,66 @@
+@import '../../styles/variable';
+
+// stepperItems
+$stepSize: 6rem;
+$circleSize: 2.4rem;
+
+.stepperItems {
+    text-align: center;
+    flex: 1;
+}
+
+.circle {
+    font-size: 1.3rem;
+    line-height: $circleSize;
+    height: $circleSize;
+    width: $circleSize;
+    margin-right: auto;
+    margin-left: auto;
+    color: $minorColor;
+    border-radius: 1000px;
+    background-color: #fff;
+    border: 1px solid $minorColor;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 1.2rem;
+    height: 1px;
+    background-color: $grey;
+    width: 100%;
+    left: 122%;
+}
+
+.anline {
+    position: absolute;
+    top: 1.2rem;
+    height: 1px;
+    background-color: $grey;
+    width: 200%;
+    left: 155%;
+}
+
+.text {
+    font-size: 12px;
+    padding-top: 1.2rem;
+    color: #333;
+}
+
+.message {
+    color: #cc3333 !important;
+}
+
+.active {
+    background-color: $primaryColor;
+    border: transparent !important;
+    color: $white !important;
+}
+
+//stepper
+.stepper {
+    display: flex;
+    padding: 2.4rem 1.2rem 1.2rem;
+    border-bottom: 1px solid $grey;
+    background-color: #fff;
+}

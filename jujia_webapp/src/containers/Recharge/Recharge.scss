@@ -1,0 +1,44 @@
+.Recharge {
+    .title {
+        padding-left: 1rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        height: 2rem;
+        color: #9a9383;
+    }
+    .priceListContent {
+        .priceList {
+            background: #ffffff;
+            text-align: center;
+            padding: 1rem;
+            display: flex;
+        }
+        .payTips{
+            background: #ffffff;
+            padding: 1rem 2rem;
+        }
+    }
+    .rechargeBtn{
+        color: #ffffff;
+        border-radius: 0.2rem;
+        margin-top: 10px;
+        background: #cc3333;
+        line-height: 3rem;
+        text-align: center;
+        height: 3rem;
+        width: 90%;
+        margin: 1.5rem 5%;
+        letter-spacing: 0.3rem;
+    }
+    .rechargeAgreement{
+        overflow: hidden;
+        margin-left: 25%;
+        .checkBox{
+            width: 8rem !important;
+            float: left;
+        }
+        .rules{
+            line-height: 1.8em;
+        }
+    }
+}

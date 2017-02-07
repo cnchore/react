@@ -1,0 +1,28 @@
+@import "../../styles/variable";
+@import "../../styles/rem";
+
+.registerInfo{
+	padding:1.5rem;
+	background-color:#FFF;
+	border-bottom:0.1rem solid #CCC;
+	.title{
+		color:#CCC;
+	}
+	.content{
+		li{
+			list-style:none;
+			margin-top:1.0rem;
+		}
+		div{
+			display: inline-block;
+		}
+		.left{
+            float:left;
+			width:25%;
+		}
+		.right{
+            width: 75%;
+			text-align:left;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.RechargeRule {
+    background: #fff;
+    padding: 10px;
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-indent: 2em;
+    }
+    .ruleList {
+        padding: 10px 20px 10px 40px;
+        li {
+            margin-top: 5px;
+        }
+    }
+    .returnBtn{
+        width: 80%;
+        margin: 0 10% !important;
+    }
+}

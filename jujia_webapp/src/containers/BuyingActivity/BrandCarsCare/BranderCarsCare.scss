@@ -1,0 +1,127 @@
+.BrandCarsCare {
+    .headerWrapper {
+        background: #9bbe00;
+        width: 100%;
+        .titleBag {
+            width: 100%;
+        }
+        .leaveNumWrap {
+            right: 3rem;
+            top: 6rem;
+            position: absolute;
+            .leaveNumIcon {
+                width: 2rem;
+            }
+            .leaveNum {
+                font-weight: 700;
+                color: #00523b;
+                font-style: oblique;
+                font-size: 1.5rem;
+                font-style: oblique;
+            }
+        }
+    }
+    .goodsList {
+        background: #9bbe00;
+        text-align: center;
+        padding-bottom: 50px;
+        .goodsContent {
+            height:10rem;
+            width: 80%;
+            margin: 0 auto 10px;
+            position: relative;
+            .goodsImg {
+                width: 100%;
+            }
+            .detailBtn {
+                color: #fff;
+                background: #eb6100;
+                width: 7rem;
+                line-height: 2rem;
+                height: 2rem;
+                font-size: 1.2rem;
+                bottom: 1.2rem;
+                position: absolute;
+                right: 2rem;
+                border-radius: 0.5rem;
+
+            }
+        }
+    }
+}
+
+.GoodsDetail {
+    .DetailBag {
+        display: block;
+        margin-bottom: -10px;
+    }
+    .hideDetailBag {
+        display: none;
+    }
+    .detailBag {
+        width: 100%;
+    }
+    .inputContainer {
+        padding-bottom: 20px;
+        .field {
+            padding-top: 10px;
+            font-size: 1.5rem;
+            text-align: center;
+            .inputTip{
+                color:#fff;
+                padding-right: 5px;
+            }
+            .value {
+                width: 50%;
+                display: inline-block;
+                background: #fff;
+                border-radius:5px;
+            }
+        }
+    }
+    .payBtnContainer{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+        background: #9bbe00;
+        .payBtn{
+            background: #eb6101;
+            border-radius: 30px;
+            line-height: 4rem;
+            margin: 0 auto;
+            width: 50%;
+            height: 4rem;
+            font-size: 2rem;
+            color: #fff;
+        }
+        .rules{
+            line-height: 3rem;
+            height: 2.5rem;
+            color: #01523b;
+            font-size: 1.4rem;
+            display: inline-block;
+            border-bottom: 1px dashed;
+        }
+    }
+
+    .hideInput {
+        transform: translateY(100%);
+        -webkit-transition: all 0.5s;
+        -webkit-transition-timing-function: ease;
+    }
+
+    .showInput {
+        top: 4.5rem;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        background: #E0E0E0;
+        transform: translateY(0%);
+        z-index: 99;
+        display: flex;
+        flex-flow: column;
+        opacity: 0.9;
+    }
+}

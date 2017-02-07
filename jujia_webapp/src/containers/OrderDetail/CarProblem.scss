@@ -1,0 +1,43 @@
+.carProblem{
+    background-color: #fff;
+    padding: 1.0rem 1.5rem;
+    border-bottom:0.1rem solid #CCC;
+    .title{
+        color:#cc3333;
+        border-bottom:0.1rem solid #CCC;
+        padding-bottom: 0.5rem;
+    }
+    .imgContent{
+        padding-top: 0.5rem;
+    }
+    .content{
+		li{
+			list-style:none;
+			margin-top:1.0rem;
+			vertical-align: middle;
+		}
+		div{
+			display: inline-block;
+			height: 100%;
+		}
+		.left{
+			width:25%;
+			vertical-align: text-top;
+			float: left;
+		}
+		.right{
+			text-align:left;
+			width:75%;
+			word-wrap:break-word;
+			word-break:break-all;
+			color:#CCC;
+		}
+        .phone{
+            color:blue;
+            text-decoration: underline;
+        }
+        .keys{
+            color:#cc3333;
+        }
+	}
+}

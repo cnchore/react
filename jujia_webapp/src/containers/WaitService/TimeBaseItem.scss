@@ -1,0 +1,48 @@
+$activeColor:#CC3333;
+$circleSize:2.4rem;
+
+.timeBaseItem{
+    .box{
+        height: 2.5rem;
+        width: 100%;
+        .circle{
+            font-size: 1.4rem;
+            font-weight: bolder;
+            width: $circleSize;
+            height: $circleSize;
+            border-radius: 1000px;
+            background-color: #999999;
+            text-align: center;
+            line-height: $circleSize;
+            color: #fff;
+            display: inline-block;
+        }
+        .activeFont{
+            font-weight: bolder;
+        }
+        .takeKeyTips{
+            color:$activeColor !important;
+            text-indent: 3rem;
+        }
+        .active{
+            background-color:$activeColor !important;
+        }
+        span{
+            margin-left: 1.0rem;
+        }
+        .stepWrap{
+            display: inline;
+            width: 80%;
+        }
+    }
+    .line{
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        span{
+            margin-left: 0.8rem;
+            color:#ccc;
+            font-size: 2.0rem;
+        }
+    }
+}

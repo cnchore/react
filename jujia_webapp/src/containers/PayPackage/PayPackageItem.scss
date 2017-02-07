@@ -1,0 +1,17 @@
+.packageMoneyContent {
+    padding: 1rem 1.5rem;
+    overflow: hidden;
+    .packageName {
+        font-size: 1.4rem;
+        float: left;
+    }
+    .money {
+        font-size: 1.4rem;
+        float: right;
+    }
+    .deleteBtn {
+        font-size: 1.4rem;
+        color: #ccc;
+    }
+}
+

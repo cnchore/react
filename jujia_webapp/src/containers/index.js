@@ -1,0 +1,45 @@
+export { default as Home } from './Home/Home';
+export { default as Login } from './Login/Login';
+export { default as Order } from './Order/Order';
+export { default as User } from './User/User';
+export { default as CheckIn } from './CheckIn/CheckIn';
+export { default as Ctlogin } from './Ctlogin/Ctlogin';
+export { default as SaveKey } from './SaveKey/SaveKey';
+export { default as TakeKey } from './TakeKey/TakeKey';
+export { default as SelectService } from './SelectService/SelectService';
+export { default as OrderList } from './OrderList/OrderList';
+export { default as OrderDetail } from './OrderDetail/OrderDetail';
+export {default as WaitService} from './WaitService/WaitService';
+export {default as CarManager} from './CarManager/CarManager';
+export {default as ParkingManager} from './ParkingManager/ParkingManager';
+export {default as MyCoupon} from './MyCoupon/MyCoupon';
+export {default as ServiceEvaluate} from './ServiceEvaluate/ServiceEvaluate';
+export {default as BaseComponent} from './BaseComponent/BaseComponent';
+export {default as BuyPackage} from './BuyPackage/BuyPackage';
+export {default as PayPackage} from './PayPackage/PayPackage';
+export {default as MyBalance} from './MyBalance/MyBalance';
+export {default as BalanceDetails} from './BalanceDetails/BalanceDetails';
+export {default as Recharge} from './Recharge/Recharge';
+export {default as RechargeRule} from './Recharge/RechargeRule';
+export {default as MyCustomService} from './MyCustomService/MyCustomService';
+export {default as OneYuanRule} from '../components/CouponRule/OneYuanRule';
+export {default as NovicePackageRule} from '../components/CouponRule/NovicePackageRule';
+export {default as VipPackageRule} from '../components/CouponRule/VipPackageRule';
+export {default as FiftyYuanRule} from '../components/CouponRule/FiftyYuanRule';
+export {default as AnionCouponRule} from '../components/CouponRule/AnionCouponRule';
+export {default as BrandCarsCareRules} from '../components/CouponRule/BrandCarsCareRules';
+export {default as AddNewUserRule} from '../components/CouponRule/AddNewUserRule';
+export {default as BrandCarsCareRule} from './BuyingActivity/BrandCarsCare/BrandCarsCareRule';
+export {default as BrandCarsCare} from './BuyingActivity/BrandCarsCare/BrandCarsCare';
+export {default as GoodsDetail} from './BuyingActivity/BrandCarsCare/GoodsDetail';
+export {default as OpenRedPackets}from './AddNewUSer/OpenRedPackets';
+export {default as AddNewUser} from './AddNewUSer/AddNewUser';
+export {default as AttentionPage} from './AddNewUSer/AttentionPage';
+export {default as ModifyPhone} from './ModifyPhone/ModifyPhone';
+export {default as Home2} from './Home/Home2';
+export {default as OrderStation } from './Order/OrderStation';
+export {default as OrderPhone} from './Order/OrderPhone';
+export {default as Banner3} from './Home/Banner3';
+
+
+

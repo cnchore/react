@@ -1,0 +1,54 @@
+.myCoupon {
+    background-color: #FAFAFA;
+    .couponList {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 4.0rem;
+        .noCouponWrap {
+            text-align: center;
+            padding-top: 30%;
+        }
+        .couponIcon {
+            color: #b5b7bd;
+            font-size: 10rem;
+        }
+        .noCoupon {
+            color: #b5b7bd;
+        }
+        .byCoupon{
+            color: #187be0;
+        }
+    }
+    .bottomMenu {
+        max-width: 648px;
+        width: 100%;
+        min-height: 4.0rem;
+        background-color: #FFF;
+        position: fixed;
+        bottom: 0px;
+        text-align: center;
+        line-height: 4.0rem;
+        div {
+            display: inline-table;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+            line-height: 2.5rem;
+            text-align: center;
+            letter-spacing: 0.3rem;
+            -webkit-border-radius: 0.5rem;
+            border-radius: 0.5rem;
+            font-weight: bolder;
+        }
+        .buyCoupon {
+            border: 0.1rem solid #CC3333;
+            color: #CC3333;
+            width: 35%;
+            margin-right: 0.8rem;
+        }
+        .useCoupon {
+            color: #fff;
+            background-color: #CC3333;
+            width: 55%;
+        }
+    }
+}

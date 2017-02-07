@@ -1,0 +1,21 @@
+.serviceState{
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 0.1rem solid #CCC;
+    img{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 28%;
+        height: 30%;
+    }
+    .title{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .desc{
+        margin-top: 0.5rem;
+        margin-bottom: 0.8rem;
+        color:#CCC;
+        font-size: 12px;
+    }
+}

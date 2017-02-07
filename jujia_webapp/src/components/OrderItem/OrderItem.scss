@@ -1,0 +1,154 @@
+@import "../../styles/variable";
+
+.orderItem {
+    position: relative;
+    padding: 0.5rem 1.2rem;
+    display: flex;
+    align-items: center;
+    .iconChoose{
+        font-size: large;
+    }
+    .name {
+        flex: 60;
+    }
+    .taketime {
+        font-size: 1.2rem !important;
+        flex: 20;
+        color: $minorColor;
+        text-align: right;
+    }
+    ._taketime{
+        font-size: 1.2rem !important;
+        flex: 30;
+        color: $minorColor;
+    }
+    .currentPrice {
+        color: $majorColor;
+    }
+
+    .priceConetnt{
+        flex:25;
+        right:1.2rem;
+        top:1.2rem;
+        text-align: right;
+        align-items: center;
+        .proprice{
+            color:$minorColor;
+            font-size: 1rem;
+            text-decoration: line-through;
+        }
+    }
+
+    .detail {
+        margin-left: 0.5rem;
+        background: #9fa4a2;
+        color: $white;
+        font-size: 0.9rem;
+        border-radius: 0.2rem;
+        padding: 2px;
+    }
+    .coupon {
+        font-size: 0.9rem;
+        margin-left: 0.5rem;
+        border-radius: 0.2rem;
+        padding: 2px;
+        border:1px solid $majorColor;
+        color: $majorColor;
+    }
+    .hidePrice,.hideName{
+        color: $minorColor;
+    }
+}
+@media only screen and(min-width: 320px) and (max-width: 352px) {
+    .orderItem{
+        font-size: 1.2rem !important;
+    }
+}
+
+.check {
+    height: 18px;
+    line-height: 18px;
+    .checked {
+        height: 17px;
+        width: 17px;
+        color: $majorColor;
+        font-size: 1em;
+        display: inline-block;
+    }
+    .unchecked {
+        display: inline-block;
+        height: 17px;
+        width: 17px;
+        font-size: 1.1em;
+    }
+    .label {
+        padding-left: 10px;
+    }
+}
+
+.detailContent {
+    ::-webkit-scrollbar {
+        width: 2px;
+        display: none;
+    }
+    overflow:auto;
+    max-height: 30rem;
+    -webkit-overflow-scrolling:touch;
+    font-size: 1.2rem !important;
+    .proname{
+        font-size: 2rem;
+        padding-bottom: 15px;
+        color: #333;
+    }
+}
+
+.closeBtn {
+    z-index: 999;
+    position: absolute;
+    color: $majorColor;
+    font-size: 3rem;
+    top: 0;
+    right: 0;
+    margin-top: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.iconTip {
+    font-size: 1.5rem;
+    color: $majorColor;
+}
+
+.tipTitle {
+    color: #333333 !important;
+    font-size: 1.4rem;
+}
+
+.describe {
+    text-indent: 2rem;
+    font-size: 1.2rem !important;
+}
+.iconBag{
+    border-radius: 999px;
+    background: white;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-right: -1.1rem;
+    margin-top: -1.1rem;
+}
+.server_desc_content{
+    display: inline-block;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    .servericon{
+        color: $majorColor;
+        font-size: 1.4rem !important;
+    }
+    .server_desc{
+        font-size: 1.2rem !important;
+    }
+}
+
+

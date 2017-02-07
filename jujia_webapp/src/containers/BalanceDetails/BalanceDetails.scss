@@ -1,0 +1,61 @@
+.BalanceDetails {
+    .balanceContent {
+        color: #fff;
+        background: #cc3333;
+        display: flex;
+        padding: 1rem;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        .cumulativeRecharge {
+            border-right: 1px solid #FFFFFF;
+            padding: 0.5rem;
+            flex: 50;
+            text-align: center;
+        }
+        .cumulativeGiveMoney {
+            padding: 0.5rem;
+            flex: 50;
+            text-align: center;
+        }
+        .ch_cumulative {
+            font-size: 1.2rem;
+            padding-top: 1rem;
+        }
+        .Recharge, .giveMoney {
+            font-size: 1.8rem;
+        }
+    }
+    .recordLine {
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+        padding: 1rem;
+        font-size: 1.2rem;
+        .ch_expend {
+            padding-bottom: 0.5rem;
+            overflow: hidden;
+            .ch_recharge {
+                float: left;
+                font-weight: bold;
+            }
+            .time {
+                float: right;
+            }
+        }
+        .expend {
+            overflow: hidden;
+            .balance {
+                float: left;
+            }
+            .recharge {
+                float: right;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .addheight{
+        height:9rem;
+    }
+}

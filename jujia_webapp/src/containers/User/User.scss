@@ -1,0 +1,139 @@
+@import "../../styles/variable";
+@import "../../styles/rem";
+$mainColor:#ffffff;
+$nameColor:#ffffff;
+$numberColor:#CC3434;
+body{
+	background-color:#F5F5F5 !important;
+}
+/*背景设置*/
+.userBg{
+	background-color:#F5F5F5 !important;
+}
+/*提示走马灯*/
+.topTip{	
+	height: 2.4rem;
+	line-height: 2.4rem;
+	font-size: 1.2rem;	
+	z-index: 1000;
+	display: inline-flex;
+	background-color: #FFDFDF;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 100%;
+	/*position: fixed;*/
+	div{
+		display: inline-block;
+	}
+	.content{
+		width: 90%;
+		color:#727272;
+		span{
+			color: red;
+		}
+	}
+	.menu{
+		width: 10%;
+		text-align: right;
+		font-size: 1.7rem;		
+	}
+}
+/*Header-头部*/
+.header{
+    width: 100%;
+    height: 10rem;
+    background-size:100% 100%;
+	display: inline-flex;
+	padding-top: 3%;
+	padding-bottom: 3%;	
+	padding-left: 3%;
+	padding-right: 3%;    
+	.left{
+		width: 30%;
+	}
+	.right{
+		width: 100%;
+		padding-left: 5%;
+		li{
+			list-style: none;
+			font-size: 1.3rem;
+			padding-top: 4%;
+			font-weight: bolder;
+		}
+		.nickName{
+			font-size: 1.5rem;
+			color:#F5F5F5;					
+		}
+		.phone{
+			color: #9D9D9D;
+			font-size: 1.2rem;
+			.check{
+				color: #D9D9D9;
+				font-weight: normal;
+				font-size: 1.1rem
+			}
+		}	
+	}
+    /*头像*/
+    .avatar{
+        border: 0.3rem solid #ffffff;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;        
+    }
+    .font{
+    	color:$nameColor;
+       	margin-top: 0.5rem;
+    }
+}
+
+/*Captial-资产信息*/
+.capital{
+	height:6.0rem;
+	color:$numberColor;
+	text-align:center;
+	background-color:$mainColor;
+	.left{
+		margin-top: 1.0rem;
+		width:50%;
+		margin-right: -0.3rem;
+		float: left;
+		border-right:0.1rem solid #CCCCCC;
+		height:3.5rem;
+	}
+	.right{
+		margin-top: 1.0rem;
+		width:48%;
+		margin-left: 0;
+		zoom:1;
+		height:3.5rem;
+		float:right;
+	}
+	.font{
+		font-size:1.8rem;
+	}
+	.label{
+		color:#727272;
+		font-size:1.2rem;
+	}
+}
+
+.menuList{
+	margin-top:1.0rem;
+	background-color:$mainColor;
+    .list{
+        padding: 0 !important;
+    }
+	.left{
+		margin-left:1.3rem !important;
+	}
+    .myCar{
+        margin-left: -1.5rem;
+    }
+}
+.backgroundImage{
+    background-size: 100%!important;
+    background-repeat:no-repeat;
+    border:0px !important;
+
+}

@@ -1,0 +1,54 @@
+@import "../../styles/variable";
+.home {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    bottom: 3rem;
+    width: 90%;
+    margin-left: 5%;
+    height: 45px;
+}
+.order{
+    height:45px;
+    width:90%;
+    margin-left:5%;
+    background:$majorColor;
+    align-items:center;
+    line-height:3.5rem;
+    text-align:center;
+    color:$reMajorColor;
+    letter-spacing:1rem;
+
+}
+.defaultShow{
+    display:block;
+    transform:translate(0%,0%);
+}
+.defaultHide{
+    transform:translate(0%,0%);
+}
+.upShow{
+    transition:all 1s ease-in-out;
+    transform:translate(0%,-100%);
+}
+.upHide{
+    transition:all 1s ease-in-out;
+    transform:translate(0%,-100%);
+}
+.downShow{
+    transition:all 1s ease-in-out;
+    transform:translate(0%,0%);
+}
+.downHide{
+    transition:all 1s ease-in-out;
+    transform:translate(0%,0%);
+}
+.main{
+    position:relative;
+    overflow: hidden;
+    width:100%;
+}
+
+

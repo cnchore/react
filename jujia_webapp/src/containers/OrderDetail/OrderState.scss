@@ -1,0 +1,19 @@
+@import "../../styles/variable";
+@import "../../styles/rem";
+.content{
+	background-color:#cc3333;
+	width:100%;
+	height:5.0rem;
+	padding-left:2.0rem;
+	line-height:5.0rem;
+	img{
+		width: 3.0rem;
+		height:2.8rem;
+		vertical-align: middle;
+	}
+	span{
+		margin-left:1.0rem;
+		margin-top:1.0rem;
+		color:#fff;
+	}
+}

@@ -1,0 +1,43 @@
+.visible{
+    right: 0;
+    z-index: 1000;
+    top: 0;
+    height: 100%;
+    position: fixed;
+    display: block;
+    left: 0;
+    bottom: 0;
+    background: rgba(51, 51, 51, 0.77);
+}
+
+.hidden {
+    display: none;
+}
+
+.imgAnimation {
+    margin-top: 30%;
+    height: 70%;
+    width: 100%;
+    animation-name: imgAnimation;
+    animation: imgAnimation 2s alternate infinite;
+    -webkit-animation: imgAnimation 2s alternate infinite;
+    -moz-animation: imgAnimation 2s alternate infinite;
+}
+
+@-webkit-keyframes imgAnimation {
+    0% {
+        left: -198px
+    }
+    100% {
+        left: 50%;
+    }
+}
+
+@-moz-keyframes imgAnimation {
+    0% {
+        left: -198px
+    }
+    100% {
+        left: 50%;
+    }
+}

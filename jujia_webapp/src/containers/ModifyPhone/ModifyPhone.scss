@@ -1,0 +1,66 @@
+.container {
+    .title{
+        color:#a5a5a5;
+        margin: 0 auto;
+        width: 80%;
+        padding:20px 0;
+    }
+    .importContainer {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        .registform input {
+            width: 100%;
+            height: 38px;
+            font-size: 14px;
+            padding-left: 15px;
+            border: 1px solid #aaaaaa;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .formgroup {
+            position: relative;
+            margin-top: 8px;
+        }
+        .getCode {
+            border-radius: 5px;
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 40%;
+            height: 30px;
+            font-size: 14px;
+            background-color: #d93838;
+            color: #fff;
+        }
+        .getCode[disabled] {
+            background-color: #B6B6B6;
+        }
+        input {
+            border-radius: 5px;
+        }
+    }
+    button, input {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        outline: none;
+        -webkit-appearance: none;
+    }
+    input {
+        &:focus {
+            border-color: #d93838 !important;
+        }
+    }
+    .bindContent {
+        text-align: center;
+        .bindPhone {
+            background: #d93838;
+            color: #fff;
+            font-size: 14px;
+            width: 80%;
+            height: 38px;
+            border-radius: 5px;
+        }
+    }
+}

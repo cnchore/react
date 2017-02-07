@@ -1,0 +1,34 @@
+/**
+ * Created by Administrator on 2016/6/20.
+ */
+/**
+ * 获取充值列表
+ * @type {string}
+ */
+export const RECHARGE_REQUEST="RECHARGE_REQUEST";
+export const RECHARGE_SUCCESS="RECHARGE_SUCCESS";
+export const RECHARGE_FAILURE="RECHARGE_FAILURE";
+
+/**
+ * 添加充值
+ * @type {string}
+ */
+export const ADD_RECHARGE_REQUEST="ADD_RECHARGE_REQUEST";
+export const ADD_RECHARGE_SUCCESS="ADD_RECHARGE_SUCCESS";
+export const ADD_RECHARGE_FAILURE="ADD_RECHARGE_FAILURE";
+
+/**
+ * 提交充值
+ * @type {string}
+ */
+export const SUBMIT_WEIXIN_PAY_REQUEST="SUBMIT_WEIXIN_PAY_REQUEST";
+export const SUBMIT_WEIXIN_PAY_SUCCESS="SUBMIT_WEIXIN_PAY_SUCCESS";
+export const SUBMIT_WEIXIN_PAY_FAILURE="SUBMIT_WEIXIN_PAY_FAILURE";
+
+/**
+ * 提交充值成功
+ * @type {string}
+ */
+export const SUBMIT_PAY_SUCCESS_REQUEST="SUBMIT_PAY_SUCCESS_REQUEST";
+export const SUBMIT_PAY_SUCCESS_SUCCESS="SUBMIT_PAY_SUCCESS_SUCCESS";
+export const SUBMIT_PAY_SUCCESS_FAILURE="SUBMIT_PAY_SUCCESS_FAILURE";

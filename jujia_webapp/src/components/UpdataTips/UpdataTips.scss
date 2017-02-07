@@ -1,0 +1,105 @@
+.homeUpdateTips{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(51, 51, 51, 0.7);
+    .BtnContent{
+        height: 100%;
+        text-align: center;
+        position: relative;
+        .BtnWrap{
+            bottom: 50px;
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            .confirmBtn{
+                width: 15rem;
+            }
+        }
+    }
+    .arrowContent{
+        height: 70%;
+        .arrowWrap{
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            .arrowTips{
+                width: 17rem;
+            }
+        }
+    }
+}
+.selectUpdateTips{
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(51, 51, 51, 0.7);
+    .washingContent{
+        height: 100%;
+        display: block;
+    }
+    .stationContent{
+        height: 100%;
+        display: block;
+    }
+    .BtnContent{
+        height: 50%;
+        text-align: center;
+        position: relative;
+        .BtnWrap{
+            bottom: 50px;
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            .confirmBtn{
+                width: 15rem;
+            }
+        }
+    }
+    .arrowContent{
+        position: relative;
+        height: 50%;
+        .myOrderWashing{
+            left:0;
+            top:0;
+            width: 25%;
+            position: absolute;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            background: #FFF;
+            z-index: 200;
+        }
+        .myOrderStation{
+            left:25%;
+            top:0;
+            width: 25%;
+            position: absolute;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            background: #FFF;
+            z-index: 200;
+        }
+        .arrowWrap{
+            top:50px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            .arrowTips{
+                width: 17rem;
+            }
+        }
+    }
+
+}
+
+.hidden{
+    display: none;
+}

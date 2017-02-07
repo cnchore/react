@@ -1,0 +1,13 @@
+@import "../../styles/variable";
+
+.title{
+    color:$minorColor;
+    margin-left:20px;
+}
+.labels{
+    display: flex;
+    text-align:center;
+}
+.titleName{
+    line-height: 25px;
+}

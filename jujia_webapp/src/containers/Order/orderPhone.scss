@@ -1,0 +1,41 @@
+.container{
+    .bag{
+        background: #fff;
+        padding-bottom: 4rem;
+        width:100%;
+        margin-bottom: -10px;
+    }
+    .byCar{
+        background: #4498d9;
+    }
+    .routine{
+        background: #34353a;
+    }
+    .tire{
+        background: #333439;
+    }
+    .brake{
+        background: #1681b4;
+    }
+    .btn{
+        font-size: 1.5rem;
+        bottom: 0;
+        color: #FFF;
+        width: 100%;
+        position: fixed;
+        line-height: 5rem;
+        height: 5rem;
+        text-align: center;
+        background: #cc3333;
+    }
+
+    .btnWrap{
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        .telBtn{
+            width: 80%;
+        }
+    }
+}

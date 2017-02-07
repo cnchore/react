@@ -1,0 +1,56 @@
+.UpdateTipsHidden{
+ display: none;
+}
+.UpdateTips{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(51, 51, 51, 0.7);
+.BtnContent{
+    text-align: center;
+    height: 40%;
+    position: relative;
+    .BtnWrap{
+        bottom: 0;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        .confirmBtn{
+            width: 15rem;
+        }
+    }
+}
+    .arrowContent{
+        height: 60%;
+        .arrowWrap{
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 70px;
+            .arrowTips{
+                width: 17rem;
+            }
+        }
+        .myOrder{
+            margin: 0 35%;
+            bottom: 0;
+            position: fixed;
+            width: 30%;
+            height: 48px;
+            background: white;
+            .tab{
+                padding-top: 14px;
+                    text-align: center;
+                    text-decoration: none;
+                    flex: 1;
+                    color: #868B8A;
+                i{
+                    font-size: 22px;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.QaList {
+    padding-bottom: 6rem;
+    .QuestionItem {
+        .title {
+            color: #999;
+            font-size: 12px;
+            text-indent: 15px;
+            background: #fff;
+            line-height: 60px;
+            height: 45px;
+        }
+        .dividerLine {
+            margin: -1px 0px 0px !important;
+        }
+        .question {
+            padding: 12px 25px;
+            line-height: 150%;
+            padding: 12px 25px;
+            font-size: 16px;
+            background: #fff;
+            min-height: 45px;
+        }
+        .hidden {
+            display: none;
+        }
+        .visible {
+            line-height: 150%;
+            padding: 15px 25px;
+            display: block;
+        }
+    }
+}
+
+.serviceCustom {
+    line-height: 5rem;
+    height: 5rem;
+    border-top: #eceded;
+    background-color: #fffffe;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    .serviceTel {
+        font-size: 1.8rem;
+        padding-left: 25px;
+        display: inline-block;
+    }
+    .serviceTelWrap {
+        right: 35px;
+        bottom: 0;
+        position: fixed;
+        .servicePhone {
+            color: #9a9393;
+            .phoneIconWrap {
+                height: 5rem;
+                text-align: center;
+                .phoneIcon {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+

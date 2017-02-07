@@ -1,0 +1,81 @@
+.BuyPackage {
+    position: relative;
+    height: 100%;
+    .packageList {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 5rem;
+    }
+    .noPackage {
+        padding-top: 30%;
+        text-align: center;
+    }
+
+    .btnWrap {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4rem;
+        line-height: 4rem;
+        //text-align: center;
+        background: #fff;
+        .shopCar {
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            width: 10%;
+            font-size: 2rem;
+            color: #CC3333;
+            .num {
+                padding: 0 2px;
+                background: #c33;
+                line-height: 1.2rem;
+                position: absolute;
+                margin-right: -5px;
+                font-size: 1rem;
+                top: 5px;
+                right: 5px;
+                border: 1px solid;
+                border-radius: 20%;
+                color: #FFF !important;
+            }
+        }
+        .moneyWrap {
+            display: inline-block;
+            width: 60%;
+            padding-left: 10px;
+            .total {
+                font-size: 1.5rem;
+            }
+            .totalMoney {
+                font-size: 1.5rem;
+                color: #CC3333;
+            }
+
+            .saveMoney {
+                font-size: 1.2rem;
+                color: #CC3333;
+            }
+        }
+        .payPackageBtn {
+            text-align: center;
+            font-size: 1.5rem;
+            background: #CC3333;
+            display: inline-block;
+            color: #fff;
+            width: 30%;
+        }
+        .tipBtn {
+            text-align: center;
+            font-size: 1.4rem;
+            background: #CCC;
+            display: inline-block;
+            color: #fff;
+            width: 30%;
+        }
+    }
+    .cloneBtn {
+        color: #ff5455;
+    }
+}

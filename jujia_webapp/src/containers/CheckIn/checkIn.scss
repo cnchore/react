@@ -1,0 +1,66 @@
+@import '../../styles/variable';
+$textColor: #666;
+.field {
+    padding: 1.2rem;
+    border-bottom: 1px solid $grey;
+}
+
+.fieldTitle,
+.fieldTitleSelect {
+    font-size: 12px;
+    color: $textColor;
+}
+
+.fieldTitle {
+    padding-bottom: 1.2rem;
+}
+
+.serviceList,
+.serviceListSelect {
+    display: flex;
+    align-items: center;
+    padding-top: 1.2rem;
+}
+
+.serviceList {
+    padding-bottom: 1.2rem;
+}
+
+.listTitle {
+    flex: 50;
+    font-size: 14px;
+    i {
+        color: $primaryColor;
+        padding-left: .6rem;
+    }
+}
+
+.listTime,
+.listPrice {
+    flex: 25;
+    font-size: 12px;
+    text-align: right;
+}
+
+.listTime {
+    color: $textColor;
+}
+
+.listPrice {
+    & > span {
+        font-size: 16px;
+    }
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    flex: 25;
+}
+
+.input {
+    flex: 75;
+}

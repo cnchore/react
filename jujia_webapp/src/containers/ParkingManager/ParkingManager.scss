@@ -1,0 +1,38 @@
+.parkingManager{
+    background-color: #FFF;
+    margin-top: 1rem;
+    .list{
+        padding: 0 !important;
+        .rightIcon{
+            background-size: 16px 20px !important;
+            background-position: 50% 50% !important;
+            background-repeat: no-repeat !important;
+            border:0px !important;
+        }
+        .item{
+            border-bottom: 0.1rem solid #CCC !important;
+            font-size:1.2rem !important;
+        }
+    }
+
+}
+.noParkingWrap {
+    text-align: center;
+    padding-top: 30%;
+    .parkingIcon {
+        width: 10rem;
+    }
+    .noParking {
+        padding-top: 1.5rem;
+        .goOrder {
+            color: #187be0;
+            text-decoration: underline;
+        }
+    }
+}
+.backgroundImage{
+    background-size: 100%!important;
+    background-repeat:no-repeat;
+    border:0px !important;
+
+}

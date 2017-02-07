@@ -1,0 +1,16 @@
+@import "../../styles/variable";
+@import "../../styles/rem";
+.orderDetail{
+    .tempHeight{
+        height: 4.0rem;
+    }
+    .bottomBtn{    
+        position:fixed;
+        bottom:0;
+        height: 4.0rem;
+        line-height: 4.0rem;
+        width: 100%;
+        background-color: #fff;
+        border-top: 0.1rem solid #CCC;
+    }
+}

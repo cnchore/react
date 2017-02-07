@@ -1,0 +1,32 @@
+@import "../../styles/variable";
+@import "../../styles/rem";
+.serviceItem{
+	padding:1.5rem;
+	background-color:#FFF;
+	border-bottom:0.1rem solid #CCC;
+	.title{
+		color:#CCC;
+	}
+	.content{
+		margin-top:1.0rem;
+		li{
+			list-style:none;
+			margin-top:0.5rem;
+		}
+		div{
+			display: inline-block;
+		}
+		.left{
+			width:60%;
+		}
+		.center{
+			width:25%;
+			color:#CCC;
+		}
+		.right{
+			width:15%;
+			text-align:right;
+			color:#cc3333;
+		}
+	}
+}

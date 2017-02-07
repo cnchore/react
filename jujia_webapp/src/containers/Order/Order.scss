@@ -1,0 +1,471 @@
+@import "../../styles/variable";
+
+.order {
+    background: $reMajorColor;
+    padding-bottom: 100px;
+}
+
+.chooseItemTitle {
+    color: $minor1Color;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.2rem;
+}
+
+.itemTitle {
+    color: #cc3333;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.2rem;
+}
+
+.mainPro {
+    padding: 0.5rem;
+    border-bottom: 1px solid $minor2Color;
+    .childPro {
+        position: relative;
+        margin-left: 5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        background: #F5F5F5;
+        font-size: 1.2rem;
+        .arrowTop {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin-left: 15px;
+            margin-top: -10px;
+            width: 0;
+            height: 0;
+            border-bottom: 10px solid #f5f5f5;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+        }
+        .taketime {
+            color: $minor1Color;
+        }
+        .name label {
+            color: $minor2Color !important;
+        }
+        .currentPrice {
+            color: $minor2Color !important;
+        }
+    }
+}
+
+.otherPro {
+    padding: 0.5rem;
+    border-bottom: 1px solid $minor2Color;
+}
+
+.spread {
+    line-height: 3rem;
+    border-bottom: 10px solid $minor3Color;
+    overflow: hidden;
+    .fire {
+        float: left;
+        padding-left: 1.2rem;
+        font-size: 18px;
+        color: #ff5a5a;
+    }
+    .content {
+        float: left;
+        padding-left: 10px;
+        font-size: 1.3rem;
+        color: #cc3333;
+    }
+    .buy {
+        float: right;
+        padding-right: 1.2rem;
+        font-size: 1.3rem;
+        color: #666;
+    }
+    .arrow {
+        font-size: 1.3rem;
+    }
+}
+
+.info {
+    border-bottom: 10px solid $minor3Color;
+    padding: 0.5rem 1.2rem;
+    .paytype {
+        padding-top: 10px;
+    }
+    .field {
+        min-height: 48px;
+        align-items: center;
+        display: flex;
+        label {
+            flex: 25;
+        }
+        .value {
+            flex: 75;
+        }
+        .parkSpot {
+            padding-top: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        input[disabled] {
+            color: #000;
+            opacity: 1
+        }
+    }
+    .modifyPhoneContent {
+        position: relative;
+        .modifyPhone {
+            width: 50px;
+            color: #0000ff;
+            right: 20px;
+            margin-top: -8px;
+            position: absolute;
+        }
+    }
+    ._field {
+        min-height: 48px;
+        align-items: center;
+        display: flex;
+        label {
+            flex: 25;
+        }
+        .value {
+            flex: 75;
+            & > div {
+                height: 48px !important;
+            }
+        }
+    }
+    .parkspot {
+        height: 48px;
+    }
+}
+
+@media only screen and(min-width: 320px) and (max-width: 374px) {
+    .showKeepKeyTips {
+        font-size: 12px;
+    }
+}
+
+.showKeepKeyTips {
+    display: block;
+    width: 100%;
+    background: rgba(12, 12, 12, 0.8);
+    line-height: 30px;
+    height: 30px;
+    bottom: 60px;
+    position: fixed;
+    .remindIcon {
+        padding-left: 5%;
+        float: left;
+        font-size: 17px;
+        color: #fff;
+    }
+    .tipsNormal {
+        padding-left: 5%;
+        color: #fff;
+    }
+    .tipsImprotant {
+        font-weight: bold;
+        color: #cc3333;
+    }
+}
+
+.hideKeepKeyTips {
+    display: none;
+}
+
+.drawerParkSpotOpen {
+    width: 100% !important;
+    z-index: 1400 !important;
+}
+
+.drawerParkSpotClose {
+    width: 100%;
+}
+
+.drawerParkSpotLower {
+    z-index: 1300 !important;
+}
+
+.inputParkSpot {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    .label {
+        flex: 20;
+    }
+    .value {
+        flex: 60;
+    }
+    .btn {
+        flex: 20;
+        background-color: $major1Color;
+        padding: 5px;
+        color: $reMajorColor;
+        text-align: center;
+        margin-top: -10px;
+    }
+}
+
+.hideInput {
+    transform: translateY(100%);
+    -webkit-transition: all 0.5s;
+    -webkit-transition-timing-function: ease;
+}
+
+.showInput {
+    top: 4.5rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: $minor2Color;
+    transform: translateY(0%);
+    //transition: all 0.5s;
+    z-index: 99;
+    display: flex;
+    flex-flow: column;
+    opacity: 0.9;
+}
+
+.hideInputBg {
+    transform: translateY(100%);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    background: $minor2Color;
+    transition: all 0.1s;
+}
+
+.showInputBg {
+    top: 4.5rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: $minor2Color;
+    transform: translateY(0%);
+    //transition:all 0.1s;
+    z-index: 99;
+    flex-flow: column;
+    opacity: 0.9;
+}
+
+.inputSection {
+    display: flex;
+    width: 100%;
+    z-index: 1400;
+    background: $bgColor;
+}
+
+.inputSectionBg {
+    background: $minor2Color;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.labelField {
+    flex: 25;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.inputField {
+    z-index: 1500;
+    flex: 75;
+}
+
+.hidden {
+    display: none;
+}
+
+.urgent {
+    padding: 0.5rem 1.2rem;
+    border-bottom: 1px solid $minor2Color;
+    .primary {
+        display: flex;
+        padding: 1.2rem 0rem;
+        .left {
+            flex: 70;
+        }
+        .right {
+            color: $majorColor;
+            flex: 30;
+            text-align: right;
+        }
+    }
+    .secondary {
+        margin-left: 2rem;
+        color: $minorColor;
+        font-size: 1rem;
+    }
+}
+
+.guarantee {
+    border-bottom: 1px solid $minor2Color;
+    background: $minor3Color;
+    padding: 0.5rem 1.2rem;
+    padding-bottom: 70px;
+    .content {
+        display: flex;
+        .item {
+            flex: 30;
+            text-align: center;
+            vertical-align: middle;
+            algin-items: center;
+            height: 60px;
+            width: 80px;
+            display: flex;
+            flex-flow: column;
+            .icon {
+                font-size: 2.5rem;
+                flex: 60;
+            }
+            .label {
+                flex: 40;
+            }
+        }
+    }
+}
+
+.pay {
+    height: 60px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: $majorColor;
+    padding: 0.5rem 1.2rem;
+    display: flex;
+    .payLeft {
+        color: $reMajorColor;
+        flex: 75;
+        p {
+            padding-bottom: 0.5rem;
+            .payLeftPrimary {
+            }
+            .payLeftSecondary {
+                font-size: 0.9rem;
+            }
+
+        }
+    }
+    .payRight {
+        text-align: right;
+        vertical-align: middle;
+        align-items: center;
+        flex: 25;
+        margin: auto 0;
+        .payButton {
+        }
+    }
+}
+
+.parentItem {
+    display: block;
+    padding: 10px;
+    padding-left: 0px;
+    border-bottom: 1px solid $minor2Color;
+    margin-left: 20px;
+    &:active {
+        background-color: #e3e3e3;
+    }
+}
+
+.item {
+    display: block;
+    padding: 10px;
+    padding-left: 0px;
+    border-bottom: 1px solid $minor2Color;
+    margin-left: 20px;
+    &:active {
+        background-color: #e3e3e3;
+    }
+
+}
+
+.orderField {
+    min-height: 20px;
+    padding-left: 2px;
+    padding-bottom: 5px;
+}
+
+.headerItem {
+    //display: flex;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    background-color: $minor3Color;
+    .areaname {
+        width: 80%;
+        float: left;
+        font-size: 16px;
+        //flex: 80;
+        line-height: 40px;
+    }
+    .leftIcon {
+        font-size: 1.5em;
+        height: 40px;
+        width: 10%;
+        line-height: 40px;
+        float: left;
+        display: inline-block;
+        padding: 0px 5px;
+        color: $minorColor;
+        //flex: 10;
+    }
+    .rightIcon {
+        font-size: 1.5em;
+        height: 40px;
+        width: 10%;
+        line-height: 40px;
+        display: inline-block;
+        float: right;
+        padding: 0px 5px;
+        color: $minorColor;
+        //flex: 10;
+    }
+    .title {
+        font-size: 1.3rem;
+        //flex: 80;
+        line-height: 40px;
+        text-indent: -4rem;
+    }
+
+}
+
+.input {
+    width: 100%;
+    display: inline-block;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid $minor2Color;
+    &:focus {
+        border: 0;
+        border-bottom: 1px solid $minor2Color;
+        outline: none;
+    }
+}
+
+.frequentParkTitle {
+    margin-top: 10px;
+    span {
+        padding-left: 20px;
+        color: $minor2Color;
+        font-size: 1rem;
+    }
+
+}
+
+.showInputFieldFlex {
+    display: flex;
+}
+
+.showInputFieldBlock {
+    display: block;
+}
+

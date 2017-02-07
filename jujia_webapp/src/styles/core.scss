@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('../static/fonts/iconfont.woff') format('woff'),
+    url('../static/fonts/iconfont.ttf') format('truetype'),
+    url('../static/fonts/iconfont.svg#iconfont') format('svg');
+}
+
+:global {
+    @import 'variable';
+    @import 'base';
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    body {
+        -webkit-overflow-scrolling: touch;
+        -webkit-user-select: none;
+        font-size: 14px;
+    }
+
+    a, img {
+        -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #root {
+        -webkit-box-flex: 1;
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        height:100%;
+    }
+
+    .iconfont {
+        font-family: "iconfont" !important;
+        font-size: inherit;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    div.root>div[data-reactroot]{
+        height:100%;
+    }
+}

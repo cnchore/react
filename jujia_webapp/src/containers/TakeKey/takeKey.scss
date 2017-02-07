@@ -1,0 +1,43 @@
+@import "../../styles/variable";
+@import "../../styles/rem";
+.takeKeyBg{
+	background-color:#FFFFFF;
+}
+.qrcode{
+	width:65%;
+	height:30.0rem;
+	margin:1.0rem auto;
+	text-align: center;
+	canvas{
+		margin-top: 1.0rem;
+		border:0.1rem solid #CCCCCC;
+		padding:1.0rem;
+		margin-bottom: 1.0rem;
+	}
+	.goHome{
+		color:#cc3333;
+		margin-top: 1.3rem;
+		font-size:1.2rem;
+		text-decoration: underline;
+	}
+}
+.line{
+	margin-left:0rem !important;
+}
+.list{
+	.leftIcon{
+		width:4.0rem!important;
+		height:4.0rem!important;
+		border-radius:0rem !important;
+	}
+	.title{
+		font-size: 1.3rem !important;
+	}
+	.content{
+		font-size:1.3rem;
+	}
+	.end{
+		font-size: 1.2rem;
+		color:#cc3333;
+	}
+}

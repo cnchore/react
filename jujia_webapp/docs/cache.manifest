@@ -1,0 +1,13 @@
+CACHE MANIFEST 
+# 2016-08-03 v2.3
+CACHE:
+http://wx.test.jujia.ctauto.cn/*.css
+http://wx.test.jujia.ctauto.cn/app.7884556059955b3fafc6.js
+http://wx.test.jujia.ctauto.cn/src/static/fonts/iconfont.ttf
+http://wx.test.jujia.ctauto.cn/src/static/fonts/iconfont.woff
+http://wx.test.jujia.ctauto.cn/*.png
+
+NETWORK:
+http://wx.test.jujia.ctauto.cn/
+http://test.jujia.ctauto.cn/
+

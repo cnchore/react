@@ -1,0 +1,119 @@
+.waitService{
+    .tempHeight{
+        height: 4.0rem;
+    }
+    .noCabinetContent{
+    	background-color:#cc3333;
+		width:100%;
+		height:5.0rem;        
+		padding-left:1.2rem;
+		padding-top: 1.2rem;
+		display: flex;
+		.left{
+			width: 4rem;
+			float: left;
+			height: 5rem;
+		}
+		.right{
+			float: left;
+			width: 80%;
+			height: 5rem;
+		}
+		img{
+			width: 3.0rem;
+			height:2.8rem;			
+		}
+		span{
+			color:#fff;
+			width: 80%;
+		}
+    }
+    .btn{
+        text-align:center;
+        height: 5.0rem;
+        line-height: 4.5rem;
+        padding-top: 0.3rem;
+        position: fixed;
+        bottom: 0;
+        background-color: #fff;
+        width:100%;
+        div{
+            width: 40%;
+            height: 3.0rem;
+            margin:0 auto;
+            margin-right: 1.0rem;
+            margin-left:1.0rem;
+            line-height:3.0rem;
+            border-radius: 1.5rem;
+            display: inline-block;
+        }
+        .guide{
+            border:0.1rem solid red;
+            color:red;
+        }
+        .unGuide{
+            border:0.1rem solid #ccc;
+            color:#ccc;
+            .contactService{
+                color: #333333;
+            }
+        }
+    }
+}
+
+.dialogTitle{
+	text-align:center;
+	font-size:1.6rem !important;
+	padding:1.0rem 1.0rem 0rem !important;
+}
+.lblContent {
+	.content {
+		margin-top:0.5rem;
+		width:100%;
+		span {
+			border: 0.1rem solid #ccc;
+			border-radius: 0.5rem;
+			line-height: 2.0rem;
+			padding:0.2rem 0.4rem;
+			margin-top: 0.5rem;
+			margin-right: 1.0rem;
+			display: inline-block;
+			font-size:10pt;
+			color: #68696B;
+		}
+		.active{
+			border-color: #d92727;
+    			color:#d92727;
+		}
+	}
+}
+.lblBtn {
+	border-top:solid 1pt rgba(221,221,221,0.50) !important;
+	height:4.2rem;
+	line-height:4.2rem;
+	color:#196FD1;
+	padding:0rem !important;
+	div {
+		li {
+			width:50%;
+			list-style: none;
+			float:left;
+			text-align:center;
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		li:last-child a{
+			color:#ccc;
+		}
+		li:nth-child(2){
+			border-left:solid 1pt rgba(221, 221, 221, 0.50);
+			font-weight:600;
+		}
+		.active{
+			color:#196FD1;
+		}
+	}
+}

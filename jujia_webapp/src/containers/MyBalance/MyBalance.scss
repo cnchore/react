@@ -1,0 +1,78 @@
+.MyBalance {
+    height: 100%;
+    .allBalanceContent {
+        background: #fff;
+        .balanceDetails {
+            color: #9a9393;
+            font-size: 1rem;
+            padding: 1rem;
+            float: right;
+        }
+        .ch_allBalance {
+            padding-top: 2.5rem;
+            font-size: 1.4rem;
+            text-align: center;
+            clear: both;
+            color: #9a9393;
+        }
+        .allBalance {
+            font-size: 3.5rem;
+            padding-top: 0.5rem;
+            text-align: center
+        }
+        .balance_promotion_given {
+            color: #9a9393;
+            padding-top: 1rem;
+            text-align: center;
+        }
+        .cumulativeContent {
+            padding-bottom: 0.5rem;
+            padding-top: 6rem;
+            display: flex;
+            .ch_cumulative {
+                font-size: 1rem;
+                color: #9a9393;
+            }
+            .cumulative {
+                font-size: 1rem;
+            }
+            .cumulativeRecharge {
+                border-right: 1px solid #666;
+                text-align: center;
+                flex: 50;
+            }
+            .cumulativeGiveMoney {
+                text-align: center;
+                flex: 50;
+            }
+        }
+    }
+    .goRecharge {
+        letter-spacing: 0.2rem;
+        color: white;
+        border-radius: 0.2rem;
+        background: #cc3333;
+        margin: 2rem 10%;
+        width: 80%;
+        text-align: center;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .servicePhone{
+        right: 2rem;
+        position: absolute;
+        color: #9a9393;
+        bottom: 5rem;
+        .phoneIconWrap{
+            text-align: center;
+            .phoneIcon{
+                font-size: 3.5rem;
+            }
+        }
+        .contactService{
+            font-size: 1.2rem;
+        }
+    }
+
+}
